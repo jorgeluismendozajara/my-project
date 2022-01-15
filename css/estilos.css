@@ -1,0 +1,302 @@
+#menu a{
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+#menu button{
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+.carousel-inner{
+    max-height: 39rem; 
+}
+
+#titulo a{
+    color:aqua;
+}
+
+footer{
+    background: #1b2a4e;
+    min-height: 100px;
+}
+
+footer p{
+    color:white;
+    text-align: center;
+}
+
+#iconos i{
+    font-size: 26px;
+    padding: 15px 20px 20px 20px;
+    color:blueviolet;
+    background-color: white;
+    border-radius: 15px;
+    margin: 0 10px
+}
+
+footer h6{
+    color:white;
+    text-align: center;
+}
+
+.badboy-title{
+    color: #00ff00;
+    font-weight: 900;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.logo-footer{
+    width: 100%;
+    object-fit: cover;
+    max-width: 150px;
+}
+
+.letra1{
+    text-align-last: center;
+}
+
+.badboy-row1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 20px 20px 20px;
+}
+
+footer{
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    background: black;
+}
+
+.badboy-item{
+    color: white;
+}
+
+.badboy-col1{
+    margin: auto;
+}
+
+.badboy-col5{
+    padding: 70px 0 25px 0;
+}
+
+.texto1{
+    color: gray;
+}
+
+.badboy-row2{
+    padding: 30px 0 20px 0;
+}
+
+.badboy-row1xw{
+    background: #f5f2fe;
+    width: 100%;
+    margin: 170px 0;
+    border-radius: 31px;
+    display: inline-block;
+}
+
+.badboy-texto4{
+    color: black;
+    font-weight: 900;
+    font-weight: bold;
+    font-size: 40px; 
+    margin: auto;
+}
+
+.colum3x{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    
+}
+
+.button5{
+    background: #5b26ed;
+    color: white;
+    padding: 18px 28px;
+    font-size: 15px;
+    border-radius: 17px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.button6{
+    background: #5b26ed;
+    margin: 30px 0;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px
+}
+
+.badboy-containerx{
+    margin: auto;
+    padding: 50px 0;
+}
+
+.badboy-row1xw{
+    background: #f5f2fe;
+    display: flex;
+    border-radius: 30px;
+    max-width: 1900px;
+}
+
+.col0{
+    background-image: url('../img/rachaul-ray-screenshot.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 80px 40px;
+}
+
+.imagenq{
+    width: 100%;
+    max-width: 133px;
+}
+
+.parrafo1{
+    color: white;
+    font-size: 26px;
+    width: 447px;
+    margin: 34px 0;    
+}
+
+.parrafo2{
+    font-size: 25px;
+    margin: auto;
+    color: white;
+}
+
+.row-content{
+    width: 100%;
+    max-width: 1480px;
+}
+
+.coli{
+    max-width: 1480px;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    padding: 64px 10px 40px 10px;
+}
+
+.row-contentp{
+    margin: auto;
+    max-width: 1900px;
+    padding: 0 37px 0 9px;
+    width: 85%;
+}
+
+.row-contentqw{
+    font-size: 80px 46px;
+    max-width: 1687px;
+    padding-top: 90px;
+    width: 600%;
+}
+
+.cola{
+    max-width: 1480px;
+    margin: auto;
+    width: 100%;
+    padding: 64px 40px 10px 15px;
+    text-align: left;
+}
+
+.titulox{
+    font-weight: bold;
+    font-size: 46px;
+    padding: 0 0 10px 0;
+}
+
+.titulox1{
+    font-weight: bold;
+    font-size: 30px;
+    padding: 0 0 10px 0;
+}
+
+.titulox2{
+    font-size: 18px;
+}
+
+.link{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.columna2{
+    text-align: center;
+}
+
+.letras{
+    font-weight: bold;
+    font-size: 60px;
+    color: black;
+    margin: auto;
+}
+
+.row-lx{
+    padding: 10px 30px 10px 30px;
+    margin: 0 0 80px 0;
+}
+
+.letras1{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.letras12{
+    text-align: center;
+    font-size: 16px;
+    line-height: 27px;
+    color: #9A9A9A;
+    margin: auto;
+}
+
+.columna11{
+    padding: 0 10px 0 70px;
+    margin: 0 10px 0 10px;
+    width: 50%;
+}
+
+.row-lax{
+    padding: 0 10px 0 20px;
+    margin: 0 10px 40px 10px;
+    text-align: center;
+    max-width: 1480px;
+}
+
+.letras2{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.letras13{
+    text-align: center;
+    margin: auto;
+    font-size: 16px;
+    line-height: 27px;
+    color: #9A9A9A;
+}
+
+.row-lpx{
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.columna17{
+    padding: 36px 0 21px 100px;
+    text-align: center; 
+    max-width: 400px;
+}
+
+.img1{
+    padding: 0 0 30px 0;
+}
+
