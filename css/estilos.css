@@ -74,6 +74,7 @@ footer{
 
 .badboy-item{
     color: white;
+    line-height: 50px;
 }
 
 .badboy-col1{
@@ -95,9 +96,12 @@ footer{
 .badboy-row1xw{
     background: #f5f2fe;
     width: 100%;
-    margin: 170px 0;
+    margin: auto;
     border-radius: 31px;
-    display: inline-block;
+    display: inline-flex;
+    max-width: 1480px;
+    padding: 0 30px;
+    align-items: center;
 }
 
 .badboy-texto4{
@@ -130,7 +134,8 @@ footer{
     margin: 30px 0;
     border-radius: 10px;
     border: none;
-    font-size: 20px
+    font-size: 20px;
+    width: fit-content;
 }
 
 .badboy-containerx{
@@ -138,18 +143,15 @@ footer{
     padding: 50px 0;
 }
 
-.badboy-row1xw{
-    background: #f5f2fe;
-    display: flex;
-    border-radius: 30px;
-    max-width: 1900px;
-}
-
-.col0{
-    background-image: url('../img/rachaul-ray-screenshot.png');
+.row-content{
+    background-image: url('../assets/img/rachaul-ray-screenshot.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    padding: 80px 40px;
+    width: 100%;
+    max-width: 1200px;
+    padding: 40px 55px 40px;
+    margin: auto;
+    flex-direction: column;
 }
 
 .imagenq{
@@ -176,33 +178,22 @@ footer{
 }
 
 .coli{
-    max-width: 1480px;
-    margin: auto;
-    width: 80%;
+    margin: auto;       
     text-align: center;
-    padding: 64px 10px 40px 10px;
 }
 
 .row-contentp{
     margin: auto;
-    max-width: 1900px;
-    padding: 0 37px 0 9px;
-    width: 85%;
+    max-width: 1480px;
+    width: 100%;
+    padding: 40px 40px 60px;
 }
 
 .row-contentqw{
-    font-size: 80px 46px;
-    max-width: 1687px;
-    padding-top: 90px;
-    width: 600%;
-}
-
-.cola{
     max-width: 1480px;
-    margin: auto;
+    padding-top: 90px;
     width: 100%;
-    padding: 64px 40px 10px 15px;
-    text-align: left;
+    margin: auto;
 }
 
 .titulox{
@@ -234,13 +225,15 @@ footer{
 .letras{
     font-weight: bold;
     font-size: 60px;
-    color: black;
+    color: gray;
     margin: auto;
+    padding-bottom: 60px;
 }
 
 .row-lx{
-    padding: 10px 30px 10px 30px;
-    margin: 0 0 80px 0;
+    width: 100%;
+    padding: 0 0 50px 0;
+    margin: auto;
 }
 
 .letras1{
@@ -255,12 +248,6 @@ footer{
     line-height: 27px;
     color: #9A9A9A;
     margin: auto;
-}
-
-.columna11{
-    padding: 0 10px 0 70px;
-    margin: 0 10px 0 10px;
-    width: 50%;
 }
 
 .row-lax{
@@ -286,17 +273,93 @@ footer{
 
 .row-lpx{
     width: 100%;
-    max-width: 400px;
     text-align: center;
+    margin: auto;
+    justify-content: center;
 }
 
 .columna17{
-    padding: 36px 0 21px 100px;
     text-align: center; 
-    max-width: 400px;
 }
 
 .img1{
     padding: 0 0 30px 0;
 }
 
+.pt1{
+    max-width: 130px;
+}
+
+.texto-one{
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.texto-two{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.texto-three{
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.texto-one-1{
+    font-size: 96px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.fila1{
+    justify-content: center;
+}
+
+.how-it-works{
+    width: 100%;
+}
+
+.imagen-one{
+    width: 430px;
+    position: relative;
+    left: 40px;
+}
+
+.imagen-two{
+    width: 380px;
+    position: relative;
+    right: -14px;
+}
+
+.fila3{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.imagen-three{
+    width: 680px;
+}
+
+.fila4{
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+    position: relative;
+    top: -100px;
+}
+
+.col-3{
+    justify-content: end;
+}
+
+.category-carrusel{
+    display: none;
+}
+
+.letrasaz{
+    color: black;
+    font-weight: bold;
+    font-size: 60px;
+    padding-bottom: 30px;
+}
