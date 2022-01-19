@@ -61,7 +61,7 @@ footer h6{
 
 .badboy-row1{
     width: 100%;
-    max-width: 1200px;
+    max-width: 1480px;
     margin: auto;
     padding: 20px 20px 20px 20px;
 }
@@ -155,7 +155,7 @@ footer{
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1480px;
     padding: 40px 55px 40px;
     margin: auto;
     flex-direction: column;
@@ -265,6 +265,11 @@ footer{
     line-height: 27px;
     color: #9A9A9A;
     margin: auto;
+}
+
+.viodeo{
+    max-width: 1480px;
+    padding: 73px 8px;
 }
 
 .row-lax{
@@ -418,4 +423,118 @@ footer{
     font-weight: 10;
     width: 100%;
     border: none;
+}
+
+.category-item{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.h1-category{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.col1-items{
+    align-items: center;
+    text-align: center;
+}
+
+.col2-items{
+    align-items: center;
+    text-align: center;
+}
+
+.col3-items{
+    align-items: center;
+    text-align: center;
+}
+
+.sell-by-category{
+    max-width: 1480px; 
+    width: 100%;
+    padding: 100px 10px;
+    background: #f5f2fe;
+    border-radius: 32px;
+    position: relative;
+    min-height: 587px;
+}
+
+.col1-sell-by-category{
+    max-width: 1480px;
+    width: 100%;
+}
+
+.h1-sell{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+.h2-number{
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    color: blueviolet;
+}
+
+.h3-messages{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.h4-via{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.btn-facebook{
+    background: #5b26ed;
+    color: white;
+    padding: 18px 28px;
+    font-size: 18px;
+    border-radius: 17px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.col2-sell-by-category{
+    position: absolute;
+    width: 4px;
+    background: white;
+    height: 400px;
+    top: 12px;
+    left: 49%;
+    z-index: 1;
+}
+
+.col3-sell-by-category{
+    text-align: center;   
+}
+
+.img-salvation08{
+    width: 100%;
+    left: -67px;
+    position: absolute;
+    max-width: 120px;
+}
+
+.img-salvation10{
+    bottom: 93px;
+    left: -85px;
+    position: absolute;
+    width: 100%;
+    max-width: 160px;
+}
+
+.img-salvation09{
+    right: -90px;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    max-width: 120px;
 }
