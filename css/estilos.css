@@ -4,6 +4,14 @@
     color: #3f3f3f;
 }
 
+#menu{
+    max-width: 1444px;
+    height: 84px;
+    box-shadow: 0 0 15px rgb(0 0 0 / 40%);
+    background: white;
+    border-bottom: 1px #e9e9ec solid;
+}
+
 #menu button{
     font-size: 18px;
     font-weight: bold;
@@ -12,6 +20,10 @@
 
 .carousel-inner{
     max-height: 39rem; 
+}
+
+.filaaqw{
+    text-align: center;
 }
 
 #titulo a{
@@ -70,13 +82,6 @@ footer{
     border-top-left-radius: 100px;
     border-top-right-radius: 100px;
     background: black;
-}
-
-.filaaqw{
-    max-width: 1480px;
-    padding: 70px 0;
-    background-color:  #EEEEEE;
-    border-radius: 20px;
 }
 
 .badboy-item{
@@ -138,7 +143,7 @@ footer{
 
 .button6{
     background: #5b26ed;
-    margin: 30px 0;
+    margin: 30px 15px;
     border-radius: 10px;
     border: none;
     font-size: 20px;
@@ -159,6 +164,10 @@ footer{
     padding: 40px 55px 40px;
     margin: auto;
     flex-direction: column;
+}
+
+.button9{
+    border-radius: 14px;
 }
 
 .imagenq{
@@ -201,16 +210,17 @@ footer{
 
 .row-contentp{
     margin: auto;
-    max-width: 1480px;
+    max-width: 1140px;
     width: 100%;
-    padding: 40px 40px 60px;
+    padding: 64px 0;
 }
 
 .row-contentqw{
-    max-width: 1480px;
+    max-width: 1140px;
     padding-top: 90px;
     width: 100%;
     margin: auto;
+    padding: 70px 7px 10px;
 }
 
 .titulox{
@@ -268,8 +278,8 @@ footer{
 }
 
 .viodeo{
-    max-width: 1480px;
-    padding: 73px 8px;
+        max-width: 1140px;
+        padding: 73px 8px;
 }
 
 .row-lax{
@@ -373,10 +383,11 @@ footer{
 
 .col-3{
     justify-content: end;
+    padding: 0;
 }
 
 .category-carrusel{
-    display: none;
+    padding: 30px 0;
 }
 
 .letrasaz{
@@ -389,12 +400,15 @@ footer{
 .img-31{
     left: -173px;
     bottom: -19px;
-    width: 100%;
+    width: 620px;
     z-index: 0;
+    vertical-align: middle;
 }
 
 .img-32{
-    width: 100%;
+    width: 370px;
+    right: 0;
+    bottom: 0;
 }
 
 .from1{
@@ -453,7 +467,7 @@ footer{
 }
 
 .sell-by-category{
-    max-width: 1480px; 
+    max-width: 1140px;
     width: 100%;
     padding: 100px 10px;
     background: #f5f2fe;
@@ -537,4 +551,19 @@ footer{
     position: absolute;
     width: 100%;
     max-width: 120px;
+}
+
+.container-name{
+    background: #f5f2fe;
+    min-height: 513px;
+    border-radius: 45px;
+    position: relative;
+    margin: auto;
+    width: 93%;
+    max-width: 1195px;
+}
+
+#navbarSupportedContent{
+    float: right;
+    margin-left: 8%;
 }
